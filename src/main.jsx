@@ -1,10 +1,13 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import './assets/css/styles.css';
+// import { HelloWorldApp } from './components/HelloWorldApp';
+// import { FirstApp } from './components/FirstApp';
+import { CounterApp } from './components/CounterApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <>
+        {/* <HelloWorldApp /> */}
+        {/* <FirstApp title="Hola, soy Goku" subTitle={123} /> */}
+        <CounterApp value={10} />
+    </>
 )

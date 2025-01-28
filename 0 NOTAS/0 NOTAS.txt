@@ -1,0 +1,11 @@
+---- Notas ----
+
+npm install --save-dev jest
+npm install --save-dev @types/jest
+npm install --save-dev babel-jest @babel/core @babel/preset-env
+npm install --save-dev whatwg-fetch
+npm install --save-dev @testing-library/react
+npm install --save-dev jest-environment-jsdom
+npm install --save-dev @babel/preset-react
+
+npm run test  # Levantamos las pruebas con React Testing Library y Jest
